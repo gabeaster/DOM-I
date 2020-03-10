@@ -103,4 +103,10 @@ mainContentP[4].textContent = siteContent['main-content']['vision-content'];
 //h4 contact title
 let contactH4 = document.querySelector('.contact h4');
 contactH4.textContent = siteContent['contact']['contact-h4'];
-
+//p contact content
+let contactP = document.querySelectorAll('.contact p');
+contactP[0].innerHTML = siteContent['contact']['address']
+  .split('Street ')
+  .join('Street <br>');
+contactP[1].innerHTML = siteContent['contact']['phone'];
+contactP[2].innerHTML = siteContent['contact']['email'];
