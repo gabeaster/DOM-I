@@ -68,3 +68,13 @@ nav.appendChild(newNav2);
 newNav2.style.cursor = 'pointer';
 newNav2.style.color = 'slateGray';
 
+//CTA
+//CTA IMG attribute set
+let circleImg = document.getElementById('cta-img');
+circleImg.setAttribute('src', siteContent['cta']['img-src']);
+//H1 using innerHTML
+let ctaH1 = document.querySelector('h1');
+ctaH1.innerHTML = siteContent['cta']['h1'].split(' ').join('<br>');
+//button
+let ctaGetStartedButton = document.querySelector('button');
+ctaGetStartedButton.innerHTML = siteContent['cta']['button'];
