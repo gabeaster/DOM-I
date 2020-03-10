@@ -84,9 +84,18 @@ let middleBannerImg = document.getElementById('middle-img');
 middleBannerImg.setAttribute('src', siteContent['main-content']['middle-img-src'])
 
 //Main Content
+//h4 titles for small content sections
 let mainContentH4 = document.querySelectorAll('.main-content .text-content h4');
 mainContentH4[0].textContent = siteContent['main-content']['features-h4'];
 mainContentH4[1].textContent = siteContent['main-content']['about-h4'];
 mainContentH4[2].textContent = siteContent['main-content']['services-h4'];
 mainContentH4[3].textContent = siteContent['main-content']['product-h4'];
 mainContentH4[4].textContent = siteContent['main-content']['vision-h4'];
+//p text content for small content sections
+let mainContentP = document.querySelectorAll('.main-content .text-content p');
+mainContentP[0].textContent = siteContent['main-content']['features-content'];
+mainContentP[1].textContent = siteContent['main-content']['about-content'];
+mainContentP[2].textContent = siteContent['main-content']['services-content'];
+mainContentP[3].textContent = siteContent['main-content']['product-content'];
+mainContentP[4].textContent = siteContent['main-content']['vision-content'];
+
