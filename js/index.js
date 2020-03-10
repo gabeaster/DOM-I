@@ -51,7 +51,7 @@ navItems[4].textContent = siteContent['nav']['nav-item-5'];
 navItems[5].textContent = siteContent['nav']['nav-item-6'];
 //forEach method that style nav links color
 navItems.forEach(linkText => {
-  linkText.style.color = 'slateGray';
+  linkText.style.color = 'green';
 });
 
 let nav = document.querySelector('nav');
@@ -60,13 +60,13 @@ const newNav1 = document.createElement("a");
 newNav1.textContent = 'Prepend';
 nav.prepend(newNav1);
 newNav1.style.cursor = 'pointer';
-newNav1.style.color = 'slateGray';
+newNav1.style.color = 'green';
 //second new nav link with styling
 const newNav2 = document.createElement('a');
 newNav2.textContent = 'Append';
 nav.appendChild(newNav2);
 newNav2.style.cursor = 'pointer';
-newNav2.style.color = 'slateGray';
+newNav2.style.color = 'green';
 
 //CTA
 //CTA IMG attribute set
