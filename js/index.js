@@ -82,3 +82,11 @@ ctaGetStartedButton.innerHTML = siteContent['cta']['button'];
 //Middle Img attribute and styling
 let middleBannerImg = document.getElementById('middle-img');
 middleBannerImg.setAttribute('src', siteContent['main-content']['middle-img-src'])
+
+//Main Content
+let mainContentH4 = document.querySelectorAll('.main-content .text-content h4');
+mainContentH4[0].textContent = siteContent['main-content']['features-h4'];
+mainContentH4[1].textContent = siteContent['main-content']['about-h4'];
+mainContentH4[2].textContent = siteContent['main-content']['services-h4'];
+mainContentH4[3].textContent = siteContent['main-content']['product-h4'];
+mainContentH4[4].textContent = siteContent['main-content']['vision-h4'];
