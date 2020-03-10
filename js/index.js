@@ -110,3 +110,7 @@ contactP[0].innerHTML = siteContent['contact']['address']
   .join('Street <br>');
 contactP[1].innerHTML = siteContent['contact']['phone'];
 contactP[2].innerHTML = siteContent['contact']['email'];
+
+//Footer
+let footer = document.querySelector('footer p');
+footer.textContent = siteContent['footer']['copyright'];
