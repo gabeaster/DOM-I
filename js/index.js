@@ -99,3 +99,8 @@ mainContentP[2].textContent = siteContent['main-content']['services-content'];
 mainContentP[3].textContent = siteContent['main-content']['product-content'];
 mainContentP[4].textContent = siteContent['main-content']['vision-content'];
 
+//Contact
+//h4 contact title
+let contactH4 = document.querySelector('.contact h4');
+contactH4.textContent = siteContent['contact']['contact-h4'];
+
